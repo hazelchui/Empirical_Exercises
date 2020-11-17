@@ -14,6 +14,8 @@ I perform a difference in differences estimation using Stata and R in this secti
 
 #### Code References
 
+Here are the websites where I learn most of my Stata and R:
+
 - [Introduction to Econometrics with R](https://www.econometrics-with-r.org/) by Christoph Hanck, Martin Arnold, Alexander Gerber, and Martin Schmelzer
 - [Stata Tutorial](https://data.princeton.edu/stata) by Germán Rodríguez
 
