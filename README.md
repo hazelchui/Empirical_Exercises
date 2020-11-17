@@ -12,4 +12,10 @@ I perform some fixed effects regressions using Stata and R in this exercise, whi
 I perform a difference in differences estimation using Stata and R in this section, studying the treatment effects of training subsidies on the number of job training hours provided by firms. Using a panel dataset of 157 Michigan firms in 1987-1989, I estimate the desired treatment effects using a DiD design. The results show that subsidies significantly increase the number of training hours offered to employees.
 
 
+#### Code References
+
+- [Introduction to Econometrics with R](https://www.econometrics-with-r.org/)
+- [Stata Tutorial by Germán Rodríguez](https://data.princeton.edu/stata)
+
+
 
