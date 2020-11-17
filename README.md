@@ -15,7 +15,7 @@ I perform a difference in differences estimation using Stata and R in this secti
 #### Code References
 
 - [Introduction to Econometrics with R](https://www.econometrics-with-r.org/)
-- [Stata Tutorial by Germán Rodríguez](https://data.princeton.edu/stata)
+- [Stata Tutorial](https://data.princeton.edu/stata) by Germán Rodríguez
 
 
 
