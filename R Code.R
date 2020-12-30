@@ -53,12 +53,12 @@ df2$marital_status <- as.factor(df2$marital_status)
 # Figure 1
 f1a <- ggplot() + geom_line(data = subset(df1, race == "white"), 
                             mapping = aes(x = year, y = log_wage, color = marital_status, group = marital_status)) + ylab("log real wage") + 
-  labs(title = "White") + theme(plot.title = element_text(hjust = 0.5))
+  labs(title = "White") + theme(plot.title = element_text(hjust = 0.5)) + scale_x_discrete(breaks=c(70,80))
 f1a
 
 f1b <- ggplot() + geom_line(data = subset(df1, race == "black"), 
                             mapping = aes(x = year, y = log_wage, color = marital_status, group = marital_status)) + ylab("log real wage") + 
-  labs(title = "Black") + theme(plot.title = element_text(hjust = 0.5))
+  labs(title = "Black") + theme(plot.title = element_text(hjust = 0.5)) + scale_x_discrete(breaks=c(70,80))
 f1b
 
 f1 <- ggarrange(f1a, f1b, ncol=2, nrow=1, common.legend = T, legend="bottom")  # combine graphs, common lengnds
@@ -68,12 +68,12 @@ f1
 # Figure 2
 f2a <- ggplot() + geom_line(data = subset(df2, collgrad == 0) , 
                             mapping = aes(x = year, y = log_wage, color = marital_status, group = marital_status)) + ylab("log real wage") +
-  labs(title = "Non-college Graduate") + theme(plot.title = element_text(hjust = 0.5))
+  labs(title = "Non-college Graduate") + theme(plot.title = element_text(hjust = 0.5)) + scale_x_discrete(breaks=c(70,80))
 f2a
 
 f2b <- ggplot() + geom_line(data = subset(df2, collgrad == 1), 
                             mapping = aes(x = year, y = log_wage, color = marital_status, group = marital_status)) + ylab("log real wage") +
-  labs(title = "College Graduate") + theme(plot.title = element_text(hjust = 0.5))
+  labs(title = "College Graduate") + theme(plot.title = element_text(hjust = 0.5)) + scale_x_discrete(breaks=c(70,80))
 f2b
 
 f2 <- ggarrange(f2a, f2b, ncol=2, nrow=1, common.legend = T, legend="bottom")  # combine graphs, common lengnds
