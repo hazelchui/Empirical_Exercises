@@ -1,7 +1,7 @@
 # Empirical_Exercises
 
 
-This repo contains [a short article](https://github.com/hazelchui/Empirical_Exercises/blob/main/Two-Small-Empirical-Exercises.pdf) as a demostration of my empirical skills which I have been self learning over the past few months. The assoicated [Stata](https://github.com/hazelchui/Empirical_Exercises/blob/main/Stata%20Code.do) and [R](https://github.com/hazelchui/Empirical_Exercises/blob/main/R%20Code.R) code are also here. There are 2 sections in the article: 
+This repo contains a [short article](https://github.com/hazelchui/Empirical_Exercises/blob/main/Two-Small-Empirical-Exercises.pdf) as a demostration of my empirical skills which I have been self learning over the past few months. The assoicated [Stata](https://github.com/hazelchui/Empirical_Exercises/blob/main/Stata%20Code.do) and [R](https://github.com/hazelchui/Empirical_Exercises/blob/main/R%20Code.R) code are also here. There are 2 sections in the article: 
 
 #### 1. Fixed-Effects Regressions – Relationship between Marriage and Wages for Females
 
